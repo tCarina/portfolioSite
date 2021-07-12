@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6em;
+  color: #b591ca;
+  font-weight: bold;
+  width: 40em;
+  background-color: transparent;
+  text-align: center;
+}
+.redirect:link {
+  text-decoration: none;
+}
+
+.redirect {
+  color: #e0ccfc;
+  background: transparent;
+  border: #ace9fa 0.2em solid;
+  padding: 0.5em;
+  border-radius: 20%/50%;
+  display: flex;
+  align-items: center;
+  font-family: ChampBold;
+  min-width: 5em;
+  justify-content: center;
+}
+.redirect:hover {
+  animation: button 1s ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+@keyframes button {
+  from {
+    border: #7476f7 0.2em solid;
+  }
+  to {
+    border: #ace9fa 0.2em solid;
+  }
+}
+
+.homeIcon {
+    height: 3em;
+    border: none !important;
+    
+}

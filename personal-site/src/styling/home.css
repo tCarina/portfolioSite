@@ -1,0 +1,66 @@
+* {
+  background-color: black;
+}
+
+.portfolioImage {
+  margin: 0;
+  height: 25em;
+  border-radius: 100%;
+  padding: 0.5%;
+  border: solid 7px #ffbded;
+}
+
+.portfolioImage:hover {
+  animation: mymove 1s ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  from {
+    border: solid 7px #e010a7;
+  }
+  to {
+    border: solid 7px #ffbded;
+  }
+}
+
+h1 {
+  font-family: Des;
+  font-size: 5em;
+  color: #9bcffd;
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+
+h2 {
+  color: #c8b6ff;
+  font-size: 4em;
+  margin-top: auto;
+  font-family: Des;
+  margin-bottom: 0;
+}
+
+.imageContainer {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+@font-face {
+  font-family: Des;
+  src: url("./fonts/desmonthe/desmonthe.otf");
+}
+
+@font-face {
+    font-family: ChampBold;
+    src: url('./fonts/champagne_limousines/Champagne\ &\ Limousines\ Bold.ttf');
+}
+
+@font-face {
+    font-family: Champ;
+    src: url('./fonts/champagne_limousines/Champagne\ &\ Limousines.ttf');
+}
