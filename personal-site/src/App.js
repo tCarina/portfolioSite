@@ -2,6 +2,9 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/navbar";
 import Home from "./components/home";
+import AboutMe from './components/about'
+import Projects from './components/projects'
+import Contact from './components/contact'
 
 function App() {
   return (
@@ -14,11 +17,17 @@ function App() {
           <Home />
         </Route>
 
-        <Route path="/aboutMe"></Route>
-
-        <Route path="/projects"></Route>
-
-        <Route path="/contactMe"></Route>
+        <Route path="/aboutMe">
+        <AboutMe />
+        </Route>
+          
+        <Route path="/projects">
+        <Projects />
+        </Route>
+          
+        <Route path="/contactMe">
+          <Contact />
+        </Route>
         </Switch>
       </Router>
     </div>

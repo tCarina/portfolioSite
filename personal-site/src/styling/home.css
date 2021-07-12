@@ -4,7 +4,7 @@
 
 .portfolioImage {
   margin: 0;
-  height: 25em;
+  height: 24em;
   border-radius: 100%;
   padding: 0.5%;
   border: solid 7px #ffbded;
@@ -25,25 +25,24 @@
   }
 }
 
-h1 {
+.title {
   font-family: Des;
   font-size: 5em;
   color: #9bcffd;
   display: flex;
   justify-content: center;
-  margin: 0%;
 }
 
-h2 {
+.subTitle {
   color: #c8b6ff;
   font-size: 4em;
   margin-top: auto;
   font-family: Des;
-  margin-bottom: 0;
+  margin:0;
 }
 
 .imageContainer {
-  padding: 3em;
+  padding: 7%;
   display: flex;
   flex-direction: column;
   align-items: center;

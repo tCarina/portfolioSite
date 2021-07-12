@@ -1,4 +1,4 @@
-import img from '../media/received_2882882215302218_3.jpeg'
+import img from '../media/homePic.jpeg'
 import '../styling/home.css'
 
 const Home = () => {
@@ -8,8 +8,8 @@ const Home = () => {
         <img src={img} className='portfolioImage'/>
       </div>
       <div className='titleContainer'>
-         <h1>Carina Taveras</h1>
-         <h2>Fullstack Web Developer</h2>
+         <h1 className='title'>Carina Taveras</h1>
+         <h2 className='subTitle'>Fullstack Web Developer</h2>
          </div>
      </section>
      
