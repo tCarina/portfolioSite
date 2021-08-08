@@ -1,0 +1,24 @@
+img {
+    height: 13em;
+    width: auto;
+    padding: 0.5%;
+    border: solid 7px #ffbded;
+}
+
+img:hover {
+    animation: mymove 1s ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectSection {
+ display: flex;
+ flex-direction: column;
+ max-width: 35em;
+ padding: 1em;
+}

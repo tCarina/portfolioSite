@@ -7,7 +7,7 @@ const AboutMe = () => {
             <h1>About Me</h1>
             <h2>Compassionate, Creative, and A Little Nerdy</h2>
             <br />
-            <img src={img} className='aboutPic' />
+            <img src={img} className='aboutPic' alt='Carina Smiling'/>
             <div className='textContainer'>
             <p id="aboutP">Hello! My name is Carina and I am a fullstack web engineer born and raised in Far Rockaway, Queens.<br/> 
             During my lifetime I have always loved working in team environments and with people of all different walks of life.<br/> 

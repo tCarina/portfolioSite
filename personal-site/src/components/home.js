@@ -5,7 +5,7 @@ const Home = () => {
  return(
      <section className='home'>
          <div className="imageContainer">
-        <img src={img} className='portfolioImage'/>
+        <img src={img} className='portfolioImage' alt='Carina Against a Red Background'/>
       </div>
       <div className='titleContainer'>
          <h1 className='title'>Carina Taveras</h1>
