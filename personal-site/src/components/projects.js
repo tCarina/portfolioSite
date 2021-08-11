@@ -1,4 +1,5 @@
 import project1 from '../media/p1.png'
+import project2 from '../media/emoShop.png'
 import '../styling/projects.css'
 
 const Projects = () => {
@@ -15,7 +16,7 @@ const Projects = () => {
             </section>
             <div className='projectSection'>
             <h2>One Stop Emo Shop</h2>
-            <a href='https://unruffled-tereshkova-ccd7eb.netlify.app/'><img src={project1} alt='Mock Shop App Screenshot'/></a>
+            <a href='https://unruffled-tereshkova-ccd7eb.netlify.app/'><img src={project2} alt='Mock Shop App Screenshot'/></a>
             <a href='https://github.com/tCarina/one-stop-emo-shop'>Github</a>
             <p>A mock e-commerce shop that sells emotions to make your life better. This site was built with full CRUD functionality. The backend was designed with express, sql, json web tokens. It also contains user auth to let you login for admin purposes. I personally built the New Product and Edit Product functionalities and contributed to building the backend which was completely collaborative. </p>
             </div>
