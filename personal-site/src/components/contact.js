@@ -6,7 +6,7 @@ import { currentFact, onClick } from "./carinaFacts";
 const Contact = () => {
   return (
     <main className="contactContainer">
-      <div>
+      <div className='contactDiv'>
         <h1>Contact Me</h1>
         <section className="logos">
           <a href="https://github.com/tCarina" target="_blank">
@@ -19,7 +19,7 @@ const Contact = () => {
         </section>
       </div>
 
-      <div>
+      <div className='contactDiv'>
         <section className="formContainer">
         <h2>Email Me</h2>
           <form
@@ -47,7 +47,7 @@ const Contact = () => {
         </section>
       </div>
 
-    <div>
+    <div className='contactDiv'>
       <section className="factsCont">
           <h2>Random Carina Fact Generator</h2>
         <form onSubmit={onClick}>
