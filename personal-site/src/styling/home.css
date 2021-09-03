@@ -42,7 +42,7 @@
 }
 
 .imageContainer {
-  padding: 3%;
+  padding: .5%;
   display: flex;
   flex-direction: column;
   align-items: center;
