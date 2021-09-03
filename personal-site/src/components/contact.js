@@ -1,5 +1,5 @@
-import githubLogo from "../media/GithubLogo.png";
-import liLogo from "../media/LiLogo.png";
+import githubLogo from "../media/githubLogo.png";
+import liLogo from "../media/liLogo.png";
 import "../styling/contactMe.css";
 import { currentFact, onClick } from "./carinaFacts";
 
