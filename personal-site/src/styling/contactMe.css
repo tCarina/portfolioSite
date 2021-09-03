@@ -71,3 +71,11 @@ button {
  .text {
    padding: .3em;
  }
+
+ .factsContainer {
+   min-height: 10%;
+ }
+
+ section {
+   padding: 3%;
+ }
