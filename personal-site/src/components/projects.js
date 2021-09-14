@@ -10,7 +10,7 @@ const Projects = () => {
         <main className='projectsContainer'>
             <section className='projectSection'>
             <h2>Budget App</h2>
-            <a href='https://budgetappfrontend.netlify.app' target ='blank'><img src={project1} alt='Budget App Screenshot' /></a>
+            <a href='https://budgetingapp.netlify.app/' target ='blank'><img src={project1} alt='Budget App Screenshot' /></a>
             <a href='https://github.com/tCarina/budgeting-app'>Github</a>
             <p>This was a small solo project. This is user friendly mock site with full CRUD functionality where you can keep track of your purchases and income. This project was made using React, Javascript, HTML, and CSS on the frontend. On the backend I Express and Javascript. My next step for this site is to add a functional database using SQL and Queries.</p>
             </section>
